@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Drawing</title>
+
+    <style>
+
+        #big_window{
+            position: relative;
+            width: 2200px;
+            height: 500px;
+            background-color: skyblue;
+            
+        }
+
+        #bus {
+            
+            left: 100px;
+            top: 100px;
+            position: absolute;
+            width: 1700px;
+            height: 300px;
+            background: linear-gradient(to right, aliceblue, aqua, blue,white);
+            border: 1px solid;
+            border-radius: 15px;
+            
+
+        }
+        .wheel{
+            width:100px;
+            height: 100px;
+            background-color:black;
+            border-radius: 50%; 
+            top: 200px;
+
+        }
+
+        #wheel1{
+            position: absolute;
+            top: 250px;
+            right: 1500px;
+        }
+        #wheel2{
+            position: absolute;
+            top: 250px;
+            right: 300px;
+        }
+         .little{
+            width:50px;
+            height: 50px;
+            background-color:white;
+            border-radius: 50%; 
+            top: 200px;
+
+        }
+
+        #little1{
+            position: absolute;
+            top: 275px;
+            right: 1525px;
+        }
+        #little2{
+            position: absolute;
+            top: 275px;
+            right: 325px;
+        }
+        .window{
+            width:300px;
+            height:110px;
+            background-color: black;
+            margin: 10px;
+            border: 1px solid black;
+            box-shadow: inset 4px 4px 8px black;
+        
+        }
+
+        #window1{
+            position: absolute;
+            top: 50px;
+            left: 350px;
+            background-color: darkgray;
+        }
+
+        #window2{
+            position: absolute;
+            top: 50px;
+            left: 40px;
+            background-color: darkgray;
+            
+        }
+
+        #window3{
+            position: absolute;
+            top: 50px;
+            right: 715px;
+            background-color: darkgray;
+        }
+         #window4{
+            position: absolute;
+            top: 50px;
+            right: 400px;
+            background-color: darkgray;
+        }
+        #window5{
+            position: absolute;
+            top: 50px;
+            right: 85px;
+            background-color: darkgray;
+        }
+        
+    
+        #sun{
+            background-color: yellow;
+            position: absolute;
+            width: 1000px;
+            height: 1000px;
+            top: 200px;
+            left: 50px;
+            transform: rotate(45deg);
+            filter: blur(20px);
+        }
+    </style>
+</head>
+<body>
+    
+<div id="big_window">
+    
+    <div id="bus">
+
+        <div id="window1" class="window"></div>
+        <div id="window2" class="window"></div>
+        <div id="window3" class="window"></div>
+        <div id="window4" class="window"></div>
+        <div id="window5" class="window"></div>
+
+        <div id="wheel1" class="wheel"></div>
+        <div id="wheel2" class="wheel"></div>
+
+        <div id="little1" class="little"></div>
+        <div id="little2" class="little"></div>
+
+       
+
+    </div>
+    
+</div>
+
+
+</body>
+</html>
